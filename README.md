@@ -40,16 +40,15 @@
                    !!HYDROXIDE AUXILIARY UNIT IN!!
                 !!YOUR EXPLOIT'S AUTO-EXECUTE FOLDER!!
 ]]--
-assert(oh, "You do not have the Hydroxide auxiliary unit in your auto-execute folder!")
+loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nrv-ous/Hydroxide/rebirth/init.lua"))()
 
-oh.load_from_file = false -- Toggle to true if you're modifying Hydroxide files from your PC
-oh.ui = import(4369731232)
-oh.assets = import(4369733667)
-oh.v_aux = import("visual_aux.lua")
-oh.icons = oh.v_aux.icons
+oh.ui = import(4635451696)
+oh.assets = import(4636445983)
 
-import("upvalue_scanner.lua")
+oh.message = import("message_box.lua")
+oh.explorer = import("explorer.lua")
 
-oh.initialize()
+oh.upvalue_scanner = import("upvalue_scanner.lua")
 
+oh.execute()
 ```
