@@ -35,10 +35,6 @@
                 ▀████████▀   ▀█▀    ▀█▀    
                       :::[H:Y:D:R:O:X:I:D:E]:::
                    -- developed by nrv-ous/hush --   
-                   
-                  !!PLEASE MAKE SURE YOU HAVE THE!!
-                   !!HYDROXIDE AUXILIARY UNIT IN!!
-                !!YOUR EXPLOIT'S AUTO-EXECUTE FOLDER!!
 ]]--
 loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/nrv-ous/Hydroxide/rebirth/init.lua"))()
 
